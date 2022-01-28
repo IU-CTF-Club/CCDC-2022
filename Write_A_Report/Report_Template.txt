@@ -1,0 +1,28 @@
+﻿February 5, 2022
+
+
+To:                        The Executive Board
+                           Audit & Risk Committee
+                           Chief Executive Officer
+
+
+From:                      Incident Response & Security Team
+
+
+
+
+Re:                        Incident # / Incident Name
+
+
+
+
+Background:
+[This is the background of the injection and what our role was in it.]
+
+
+Purpose & Methodology:
+[Explain what we did, how we did it, and our results.]
+
+
+Conclusion & Recommendations:
+[Given our results, provide a conclusion, solution, and remediation.]
