@@ -1,7 +1,8 @@
-A collection of cyber security scripts.
+Credit: https://github.com/mike-bailey/CCDC-Scripts
 
-CPVII Scripts
-Please note there's conflicting rules about scripts. I'm not liable if you read the rulebook, make any assertions on your own, use them and get disqualified based on a different interpretation of the rules. The rule is potentially going to clarified/rewritten by the next competition period anyway so it's a non-argument.
+**His scripts are broken on purpose since so many people use his scripts in CCDC competitions. We are going to use his scripts moreso as a checklist of things we need to do, as well as a reference for commands.**
+
+A collection of cyber security scripts.
 
 Main Script:
 Turns off User Account Control, 
