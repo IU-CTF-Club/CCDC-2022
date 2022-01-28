@@ -1,6 +1,7 @@
-Credit: https://github.com/mike-bailey/CCDC-Scripts
 
-**His scripts are broken on purpose since so many people use his scripts in CCDC competitions. We are going to use his scripts moreso as a checklist of things we need to do, as well as a reference for commands.**
+## **His scripts are broken on purpose since so many people use his scripts in CCDC competitions. We are going to use his scripts moreso as a checklist of things we need to do, as well as a reference for commands.**
+
+Credit: https://github.com/mike-bailey/CCDC-Scripts
 
 A collection of cyber security scripts.
 
