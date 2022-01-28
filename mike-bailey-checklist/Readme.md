@@ -29,5 +29,3 @@ Sets Sticky Keys vulnerability for when you forget your password,
 Enables auditing 100%, 
 Verifies system file integrity, 
 etc
-
-In the future this will be used in CCDC potentially.
