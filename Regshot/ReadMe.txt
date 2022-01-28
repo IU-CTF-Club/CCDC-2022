@@ -1,3 +1,4 @@
+# Credit: https://github.com/Seabreg/Regshot
 
 Readme file of Regshot 1.9.0 (2013-02-02)
 
@@ -78,15 +79,15 @@ firstk                -- Debug!
 mssoft                -- Test!
 dreamtheater          -- Test!
 Gonzalo               -- Spanish
-ArLang°¢ÀÉ            -- Chinese
+ArLangÂ°Â¢Ã€Ã‰            -- Chinese
 Mikhail A.Medvedev    -- Russian[Thanks!]
 Kenneth Aarseth       -- Norsk
 Marcel Drappier       -- French
 Vittorio "Capoccione" -- Italian
 Gnatix                -- Deutsch
-Murat KASABOGLU       -- Türkçe
+Murat KASABOGLU       -- TÃ¼rkÃ§e
 Paul Lowagie          -- Nederlands
-ondra                 -- Èesky
+ondra                 -- Ãˆesky
 AVE7                  -- Fixed Deutsch!
 Pau Bosch i Crespo    -- Catalan
 Michael Papadakis     -- Greek
@@ -95,14 +96,14 @@ Rajah                 -- Latvian
 Leandro               -- Portuguese
 Roland Turcan         -- Slovak
 Kentaro Okude         -- Japanese
-Adam Mikusiñski       -- Polish
+Adam MikusiÃ±ski       -- Polish
 Computer Wizard[Wiz]  -- Serbian
 Jack Gorji             -- Hebrew
-Xos?Antón Vicente Rodríguez --Galego
+Xos?AntÃ³n Vicente RodrÃ­guez --Galego
 Obelix                -- Hrvatski
 Alex Simidchiev       -- Bulgarian
 joup@algonet.se       -- Svenska
-Bata György           -- Hungarian
+Bata GyÃ¶rgy           -- Hungarian
 Dmitry P.             -- Ukrainian
 Mr Anonyme,Charles    -- French Update
 kazakh                -- Erzhan Erbolatuly
