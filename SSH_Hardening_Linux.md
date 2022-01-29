@@ -28,3 +28,39 @@ Credit: https://github.com/CyberLions/CCDC/blob/master/2020/Short%20Scripts/SSHh
 1) nano -w /etc/ssh/sshd_config
 2) Search for MaxAuthTries
 3) Set to: MaxAuthTries 3
+
+### Quickly verify sshd configuration
+
+```
+# sshd -T
+```
+
+### Automate changes with sed
+
+We can use sed to quickly set some sane standards:
+
+```
+$ sudo sshd -T | sed ' s/^\(port\).*/\1 560/i; s/^\(PermitRootLogin\).*/\1 no/i; s/^\(PermitEmptyPasswords\).*/\1 no/i; s/^\(MaxAuthTries\).*/\1 3/i'
+```
+
+To make sure, we can diff those changes against the original:
+
+```
+$ diff <(sudo sshd -T) <(sudo sshd -T | sed ' s/^\(port\).*/\1 560/i; s/^\(PermitRootLogin\).*/\1 no/i; s/^\(PermitEmptyPasswords\).*/\1 no/i; s/^\(MaxAuthTries\).*/\1 3/i') -u
+--- /dev/fd/63  2022-01-28 21:41:16.895037055 -0500
++++ /dev/fd/62  2022-01-28 21:41:16.895037055 -0500
+@@ -1,11 +1,11 @@
+-port 22
++port 560
+ addressfamily any
+ listenaddress [::]:22
+ listenaddress 0.0.0.0:22
+ usepam yes
+ logingracetime 120
+ x11displayoffset 10
+-maxauthtries 6
++maxauthtries 3
+ maxsessions 10
+ clientaliveinterval 0
+ clientalivecountmax 3
+```
